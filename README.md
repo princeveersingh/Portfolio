@@ -19,7 +19,7 @@ I work with C, Python, SQL, and web technologies.
 
 ## 📂 Projects
 - Calculator (C-based project)
-- CivicChain (HTML,typedef)
+- CivicChain (HTML,typescript)
 - Pricepal(HTML, CSS)
 
 ## 📜 Certifications
