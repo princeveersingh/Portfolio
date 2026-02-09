@@ -4,7 +4,7 @@ This is my personal portfolio website showcasing my skills, projects, and certif
 
 ## 🚀 Live Website
 Visit my portfolio:
-https://yourusername.github.io/portfolio
+https://princeveersingh.github.io/portfolio
 
 ## 👨‍💻 About Me
 I am a CSE student passionate about programming, problem-solving, and building real-world projects.  
