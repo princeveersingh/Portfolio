@@ -5,6 +5,8 @@
   <title>Prince Singh | Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
 <style>
 * {
   margin: 0;
@@ -234,7 +236,8 @@ section h3 {
 
 
 
-<section>
+<section data-aos="fade-up">
+
   <h2>About Me</h2>
   <p>
     I am a Computer Science student passionate about programming, problem-solving,
@@ -243,7 +246,8 @@ section h3 {
   </p>
 </section>
 
-<section>
+<section data-aos="fade-up">
+
   <h2>Skills</h2>
   <div class="skills">
     <span>C</span>
@@ -255,7 +259,8 @@ section h3 {
   </div>
 </section>
 
-<section>
+<section data-aos="fade-up">
+
   <h2>Projects</h2>
   <div class="projects">
 
@@ -279,8 +284,9 @@ section h3 {
         <p>Simple application using HTML and Typescript.</p>
       </div>
     </a>
-    <section>
-  <section>
+  </section>
+  <section data-aos="fade-up">
+
   <h2>Certifications</h2>
 
   <h3>Job Simulations</h3>
@@ -317,7 +323,8 @@ section h3 {
     </a>
   </div>
 </section>
-<section>
+<section data-aos="zoom-in">
+
   <h2>LeetCode Activity</h2>
   <div class="leetcode-box">
     <img 
@@ -350,6 +357,13 @@ section h3 {
   }
 
   window.onload = typeEffect;
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
 </script>
 
 </body>
